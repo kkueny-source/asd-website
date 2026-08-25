@@ -1,0 +1,9 @@
+{
+  "name": "asd-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/check-site.mjs"
+  }
+}
