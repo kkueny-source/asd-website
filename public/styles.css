@@ -266,12 +266,12 @@ footer address, .footer-grid > div:not(.footer-brand) p:not(.footer-label), .foo
 .footer-bottom { padding-top: 22px; display: flex; justify-content: space-between; gap: 30px; border-top: 1px solid rgba(255,255,255,.14); color: rgba(255,255,255,.42); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .footer-bottom div { display: flex; gap: 24px; }
 
-.footer-terms { margin-top: 28px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.14); color: #bdb8b0; font-size: .75rem; line-height: 1.7; scroll-margin-top: 24px; }
-.footer-terms h2 { margin: 0 0 12px; color: #e8e2d8; font-family: Inter, Arial, sans-serif; font-size: .8125rem; font-weight: 700; letter-spacing: .04em; }
+.footer-terms { margin-top: 28px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.14); color: rgba(255,255,255,.72); font-size: 8px; line-height: 1.7; scroll-margin-top: 24px; }
+.footer-terms h2 { margin: 0 0 12px; color: inherit; font-family: Inter, Arial, sans-serif; font-size: inherit; font-weight: 700; letter-spacing: .04em; }
 .footer-terms > p { margin: 0 0 16px; }
 .footer-terms-copy { columns: 2; column-gap: 36px; }
 .footer-terms-copy p { margin: 0 0 12px; break-inside: avoid; }
-.footer-terms strong { color: #e8e2d8; font-weight: 600; }
+.footer-terms strong { color: inherit; font-weight: 600; }
 .footer-terms a, .pay-footer a { text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 850px) { .footer-terms-copy { columns: 1; } }
 
